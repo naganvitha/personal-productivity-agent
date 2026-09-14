@@ -29,7 +29,17 @@ export default function TaskCard({ task, onToggleComplete, onEdit, onDelete }) {
     } else if (diffHours < 24) {
       return { text: `Due in ${Math.round(diffHours)}h`, urgent: true };
     } else {
-      return { text: d.toLocaleDateString([], { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' }), normal: true };
+      return {
+        text: d.toLocaleString('en-IN', {
+          month: 'short',
+          day: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit',
+          hour12: true,
+          timeZone: 'Asia/Kolkata'
+        }),
+        normal: true
+      };
     }
   };
 

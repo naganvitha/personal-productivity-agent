@@ -65,7 +65,7 @@ export default function TaskModal({ isOpen, onClose, editingTask }) {
         title,
         description,
         category,
-        deadline,
+        deadline: new Date(deadline).toISOString(),
         estimatedDuration,
         priority
       });
@@ -89,7 +89,7 @@ export default function TaskModal({ isOpen, onClose, editingTask }) {
         title,
         description,
         category,
-        deadline,
+        deadline: new Date(deadline).toISOString(),
         estimatedDuration: Number(estimatedDuration),
         priority
       };
