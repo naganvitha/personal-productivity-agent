@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = '/api';
+const API_BASE_URL = 'https://personal-productivity-agent-bts1.onrender.com/api';
 
 const axiosClient = axios.create({
   baseURL: API_BASE_URL,
