@@ -61,53 +61,20 @@ personal-productivity-agent/
 
 ---
 
-## 🚀 Quick Start Guide
+## 🌐 Live Demo
 
-### Prerequisites
-- **Node.js**: v18+ or v20+
-- **MongoDB**: (Optional) Local MongoDB or MongoDB Atlas URI. If local MongoDB is not running, the system will automatically launch an **In-Memory MongoDB Server** for instant zero-config testing out of the box!
+Try the live application here:
 
----
+🔗 https://personal-productivity-agent.netlify.app
 
-### Step 1: Install Dependencies & Seed Demo Data
+### 🔑 Demo Login
 
-#### Backend Setup
-```bash
-cd backend
-npm install
-npm run seed
-```
+You can either:
 
-*Note: Running `npm run seed` creates a pre-configured demo account:*
-- **Email**: `demo@productivity.ai`
-- **Password**: `password123`
+- Create a new account using the **Register Now** option, or
+- Click **Instant One-Click Demo Login** to explore the application instantly.
 
-#### Frontend Setup
-```bash
-cd ../frontend
-npm install
-```
+**Demo Credentials:**
 
----
-
-### Step 2: Start the Application
-
-#### 1. Start Backend Server (Terminal 1)
-```bash
-cd backend
-npm run dev
-```
-Backend will start at: `http://localhost:5000`
-
-#### 2. Start Frontend Dev Server (Terminal 2)
-```bash
-cd frontend
-npm run dev
-```
-Frontend will start at: `http://localhost:3000`
-
----
-
-## 🔑 Demo Login
-
-Open `http://localhost:3000` in your web browser. You can click the **"Instant One-Click Demo Login"** button on the sign-in page to log in immediately with pre-loaded tasks and schedules!
+- **Email:** `demo@productivity.ai`
+- **Password:** `password123`
